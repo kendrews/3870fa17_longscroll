@@ -9,29 +9,30 @@
 }
 
 .bird {
-  
+  padding-left: 240px;
+  padding-top: 300px;
+  text-align: center;
   position: fixed;
-  z-index: 100;
+  z-index: 4;
+  /*background-image: url(images/bird.png);*/
+  animation: bird 3s infinite;
 }
 
-@keyframes square {
+@keyframes .bird {
   0%
   {
     transform: rotate(0deg);
       border-radius: 0%;
-      background: black;
   }
   50%
   {
-    transform: rotate(90deg);
+    transform: rotate(40deg);
       border-radius: 0%;
-      background: black;
   }
   100%
   {
     transform: rotate(0deg);
       border-radius: 0%;
-      background: black;
   }
 }
 
@@ -54,32 +55,40 @@
 #cloud4 {
   position: relative;
   background-image: url(images/cloud.png);
+  z-index: 5;
 }
 #cloud5 {
   position: relative;
   background-image: url(images/cloud.png);
+  z-index: 5;
 }
 #cloud6 {
   position: relative;
   background-image: url(images/cloud.png);
+  z-index: 5;
 }
 #cloud7 {
   position: relative;
   background-image: url(images/cloud.png);
+  z-index: 5;
 }
 #cloud8 {
   position: relative;
   background-image: url(images/cloud.png);
+  z-index: 5;
 }
 #cloud9 {
   position: relative;
   background-image: url(images/cloud.png);
+  z-index: 5;
 }
 #cloud10 {
   position: relative;
   background-image: url(images/cloud.png);
+  z-index: 5;
 }
 #cloud11 {
   position: relative;
   background-image: url(images/cloud.png);
+  z-index: 5;
 }
