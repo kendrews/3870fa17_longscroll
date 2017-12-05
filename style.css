@@ -1,92 +1,85 @@
 #canvas {
-  border: 2px solid red;
-  width: 500px;
-  height: 2000px;
+  width: 700px;
+  height: 10000px;
   margin: 0 auto;
-  position: relative;
+  position: absolute;
+  margin-left: 40rem;
+  margin-right: 25rem;
+  background-image: url(images/background.jpg);
 }
 
-h1 {
-  border: 1px solid red;
-  margin-top: 15rem;
-  margin-left: 10.5rem;
-  text-align: center;
+.bird {
+  
   position: fixed;
+  z-index: 100;
+}
+
+@keyframes square {
+  0%
+  {
+    transform: rotate(0deg);
+      border-radius: 0%;
+      background: black;
+  }
+  50%
+  {
+    transform: rotate(90deg);
+      border-radius: 0%;
+      background: black;
+  }
+  100%
+  {
+    transform: rotate(0deg);
+      border-radius: 0%;
+      background: black;
+  }
 }
 
 #cloud1 {
   position: relative;
-  border: 1px solid blue;
-}
 
+  background-image: url(images/cloud.png);
+  z-index: 5;
+}
 #cloud2 {
   position: relative;
-  border: 1px solid blue;
+  background-image: url(images/cloud.png);
+  z-index: 5;
 }
-
 #cloud3 {
   position: relative;
-  border: 1px solid blue;
+  background-image: url(images/cloud.png);
+  z-index: 5;
 }
-
 #cloud4 {
   position: relative;
-  border: 1px solid blue;
+  background-image: url(images/cloud.png);
 }
-
 #cloud5 {
   position: relative;
-  border: 1px solid blue;
+  background-image: url(images/cloud.png);
 }
 #cloud6 {
   position: relative;
-  border: 1px solid blue;
+  background-image: url(images/cloud.png);
 }
 #cloud7 {
   position: relative;
-  border: 1px solid blue;
+  background-image: url(images/cloud.png);
 }
 #cloud8 {
   position: relative;
-  border: 1px solid blue;
+  background-image: url(images/cloud.png);
 }
 #cloud9 {
   position: relative;
-  border: 1px solid blue;
+  background-image: url(images/cloud.png);
 }
 #cloud10 {
   position: relative;
-  border: 1px solid blue;
+  background-image: url(images/cloud.png);
 }
 #cloud11 {
   position: relative;
-  border: 1px solid blue;
-}
-#cloud12 {
-  position: relative;
-  border: 1px solid blue;
-}
-#cloud13 {
-  position: relative;
-  border: 1px solid blue;
-}
-#cloud14 {
-  position: relative;
-  border: 1px solid blue;
-}
-#cloud15 {
-  position: relative;
-  border: 1px solid blue;
-}
-#cloud16 {
-  position: relative;
-  border: 1px solid blue;
-}
-#cloud17 {
-  position: relative;
-  border: 1px solid blue;
-}
-#cloud18 {
-  position: relative;
-  border: 1px solid blue;
+  background-image: url(images/cloud.png);
 }
